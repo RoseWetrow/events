@@ -1,0 +1,84 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+h1 {
+    margin: 20px 0px 35px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.first{
+    background-color: rgba(230, 239, 255, 0.272);
+    padding: 15px;
+    border-color: rgb(255, 255, 255);
+    border-style: groove;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#text{
+    height: 30px;
+    font-size: 13px;
+    font-style: oblique;
+}
+
+#clear, #nothere{
+    margin: 15px;
+    background-color: rgba(230, 239, 255, 0.969);
+    padding: 10px 10px;
+    font-size: 10px;
+    border-color: rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+}
+
+#openMenu{
+    margin: 15px 0px 0px 0px;
+    background-color: rgba(230, 239, 255, 0.272);
+    padding: 10px 10px;
+    font-size: 1em;
+    border: 0;
+}
+
+.openEvent{
+    font-size: 13px;
+}
+
+.elementMenu{
+    margin: 5px;
+}
+
+/* Практическая работа №2. */
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#field{
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: linear-gradient(#07f556, #0b9a38);
+    border: 2px solid #076826;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ball {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(#ffffff, #d4d4d4);
+    border: 2px solid #a1a1a1;
+    border-radius: 50%;
+    transition: all 1s;
+}
